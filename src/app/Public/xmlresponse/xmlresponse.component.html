@@ -1,0 +1,6 @@
+<p>xmlresponse works!</p>
+Phone number : <input id="txtPhoneNumber" [(ngModel)]="txtPhoneNumber">&nbsp;<input type="button" value="Send" (click)="onSendClick();"/>
+{{ xml | json }}<br/>
+{{ xml.Success }}<br/>
+{{ xml.StatusCode.Code }}<br/>
+{{ xml.StatusCode.Text }}<br/>
